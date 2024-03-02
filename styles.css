@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0px;
+}
+
+.contenedor
+{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 5px;
+
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    border-radius: 30px;
+
+    /*Desplazamiento en el eje X, Desplazamiento en Y, Desenfoque, Expansion*/
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.pikachu
+{
+    height: 300px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+#pikachu1
+{
+    filter: blur(5px);
+}
+
+#pikachu2
+{
+    filter: grayscale(100%);
+}
+
+#pikachu3
+{
+    filter: grayscale(80%) blur(5px);
+}
+
+#pikachu4
+{
+    filter: brightness(2);
+}
+
+#pikachu5
+{
+    filter: drop-shadow(10px 10px 20px red);
+}
+
+#pikachu6
+{
+    filter: sepia(1);
+    /*0.0 -- 1.0*/
+}
+
+#pikachu7
+{
+    /*Siempre se encuentra por defecto en el valor 1*/
+    filter: saturate(2);
+}
+#pikachu8
+{
+    filter:hue-rotate(200deg)
+}
+#pikachu9
+{
+    filter: opacity(0.5);
+}
+
+#pikachu10
+{
+    filter: invert(1);
+}
+
+#pikachu11
+{
+    transition: all 0.5s linear;
+}
+
+#pikachu11:hover
+{
+    filter: blur(10px);
+}
+
